@@ -1,16 +1,97 @@
-# React + Vite
+# 🎯 Number Guessing Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive **Number Guessing Game** built using **React.js** and **Tailwind CSS**.
+The player guesses a number between **1 and 10**, and the app provides hints whether the guess is too high, too low, or correct!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🔢 Generates a random number between 1 and 10
+* 💡 Provides instant feedback:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * **Guessed Right!**
+  * **Too High!**
+  * **Too Low!**
+  * **Invalid Input**
+* 🎨 Designed using **Tailwind CSS** with smooth transitions
+* ⚡ Fully responsive and mobile-friendly
+* 🔁 Random number remains fixed for each game session
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js
+* **Styling:** Tailwind CSS
+* **Language:** JavaScript (ES6+)
+
+---
+
+## 📂 Project Structure
+
+```
+Number-Guessing-Game/
+│
+├── src/
+│   ├── Components/
+│   │   └── Result.jsx        # Displays the game result feedback
+│   ├── App.jsx               # Main app component
+│   ├── index.js              # Entry point
+│   └── index.css             # Tailwind base styles
+│
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/number-guessing-game.git
+cd number-guessing-game
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the App
+
+```bash
+npm run dev
+```
+
+The app will start on **[http://localhost:5173](http://localhost:5173)** (if using Vite).
+
+---
+
+## 🧩 How to Play
+
+1. Enter a number between **1 and 10** in the input box.
+2. The system will instantly show one of the following messages:
+
+   * 🎉 *Guessed Right!*
+   * ⬆️ *Too High!*
+   * ⬇️ *Too Low!*
+   * ❌ *Invalid Input*
+3. Refresh the page to generate a new random number.
+
+---
+
+## 👨‍💻 Author
+
+**Badri Narayanan**
+*Computer Science & Engineering Student | Web Developer | Tech Enthusiast*
+
+
+---
+
+⭐ *If you like this project, give it a star on GitHub!*
