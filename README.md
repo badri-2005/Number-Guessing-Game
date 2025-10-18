@@ -53,7 +53,7 @@ Number-Guessing-Game/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/number-guessing-game.git
+git clone https://github.com/badri-2005/number-guessing-game.git
 cd number-guessing-game
 ```
 
